@@ -1,0 +1,278 @@
+<html>
+  <head>
+     <title>ECOLOGIA Y MEDIO AMBIENTE</title>
+  </head>
+ <body><CENTER>
+<body bgcolor="#FFC0CD">
+<h1><script language="JavaScript1.2">
+var message="ECOLOGIA Y MEDIO AMBIENTE"
+var neonbasecolor="black"
+var neontextcolor="white"
+var neontextcolor2="#FFFFA8"
+var flashspeed=100						
+var flashingletters=3			
+var flashingletters2=1						
+var flashpause=0					
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+crossref(m).style.color=neonbasecolor
+}
+
+crossref(n).style.color=neontextcolor
+
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2 
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script></h1>
+    
+        Ciencia que tiene por objeto el  estudio de la relación que establecen   los seres vivos y el medio ambiente en el que se desarrollan,  del mismo modo estudia  cómo se distribuyen y  el  porqué 
+       de su   abundancia en un área determinada, y cómo esas propiedades son afectadas por la interacción entre los organismos y su  ambiente.<br>
+       <body onload="doWave(0)" style="font-family: Verdana"> 
+<p align="center">
+<script language="JavaScript">
+
+//put your text here
+var theText = "Diferencias entre Ecologia y Medio Ambiente";
+
+function nextSize(i,incMethod,textLength)
+{
+if (incMethod == 1) return (22*Math.abs( Math.sin(i/(textLength/3.14))) );
+if (incMethod == 2) return (80*Math.abs( Math.cos(i/(textLength/3.14))));
+}
+
+function sizeCycle(text,method,dis)
+{
+	output = "";
+	for (i = 0; i < text.length; i++)
+	{
+		size = parseInt(nextSize(i +dis,method,text.length));
+		output += "<font style='font-size: "+ size +"pt'>" +text.substring(i,i+1)+ "</font>";
+	}
+	theDiv.innerHTML = output;
+}
+
+function doWave(n) 
+{   
+	sizeCycle(theText,1,n);
+	if (n > theText.length) {n=0}
+	setTimeout("doWave(" + (n+1) + ")", 50);
+}
+</script>
+</b></p>
+<div ID="theDiv" align="center">
+
+</div>
+
+
+</body>
+         Ecología: se conoce con este nombre a la ciencia que estudia las relaciones entre los seres vivos y su entorno.
+         Medio ambiente: es el entorno en sí, es decir, es el sistema que rodea a los seres vivos. Está formado por elementos tanto naturales como artificales que se encuentran relacionados entre sí o 
+         interrelacionados y que pueden ser modificados.<br>
+<BODY style="font-family: Verdana">
+
+<!-- Mas trucos y scripts en http://www.codigo-web.com -->
+
+<FONT SIZE="7" FACE="Verdana"><SPAN ID="s"  STYLE=" position:absolute; color:white">Caracteristicas del medio ambiente</SPAN>
+	<SPAN ID="s2" STYLE=" position:absolute; color:white">Caracteristicas del medio ambiente</SPAN>
+	<SPAN ID="s3" STYLE=" position:absolute; color:white">Caracteristicas del medio ambiente</SPAN>
+	<SPAN ID="ds" STYLE=" position:relative; "></SPAN>
+	</FONT>
+	
+	<FONT COLOR="#0000FF" SIZE="6" FACE="Verdana">Caracteristicas del medio ambiente</FONT><br><br><br><br><br><br>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+y=0
+x=2
+z=1
+function l(){
+y+=1
+x+=1
+z+=1
+document.all.s.style.color="green";
+document.all.s.style.margin=y;
+document.all.s3.style.color="yellow";
+document.all.s3.style.margin=z;
+document.all.s2.style.color="red";
+document.all.s2.style.margin=x;
+
+if (y>3){
+y=0}
+if (z>3){
+z=0}
+if (x>3){
+x=0}
+setTimeout("l(),1")
+}
+
+l()
+
+</SCRIPT>
+
+
+</p>
+
+
+</body>
+
+        
+        Los factores bióticos están representados por los seres vivos del medio ambiente: las plantas, los animales, los hongos y demás microorganismos.
+
+        La luz, la temperatura, el agua, el aire y el relieve terrestre son los factores abióticos del medio ambiente.<br>
+        Los recursos naturales son los elementos de que dispone el ser humano para satisfacer sus necesidades económicas, sociales y culturales. Se clasifican en:<br>
+        Recursos naturales no renovables: son aquellos que tienen un tiempo de explotación limitado ya que no se regeneran. Por ejemplo: los minerales, el carbón y el petróleo.<br>
+        Recursos naturales renovables: son aquellos que vuelven a surgir en la naturaleza a través de un ciclo, o por medio de la reproducción. Por ejemplo: la flora, la fauna, el agua y el suelo.
+
+         <center><img src="https://estaticos.muyinteresante.es/uploads/images/dossier/5c6fd7a35cafe860abd3fd1a/empecial-medioambiente.jpg" width="15%"><br></center>
+
+   <hr align="left" width="100%" size="5" noshade>
+
+
+   
+     <P><B><Alteraciones del medio ambiente></B><br></P>
+       Al utilizar los recursos naturales, de una forma u otra estamos alterando el medio ambiente. Por ejemplo, para el cultivo de plantaciones se eliminan los bosques, transformando el paisaje natural en paisaje rural.
+       Los paisajes urbanos se originan por la construcción de viviendas, calles, centros comerciales, industrias y otras infraestructuras para el beneficio y disfrute del ser humano.<br>
+       <br><FONT FACE="IMPACT">
+<MARQUEE BGCOLOR="E48FF5">Se relaciona con</MARQUEE>
+</FONT>
+<A HREF="Ecosistema.html"> Ecosistema </A>
+<br>
+<A HREF="DesarrolloSustentable.html"> Desarrollo Sustentable </A>
+<br>
+      <script language="JavaScript1.2">
+  message="Problemas del medio ambiente"
+  ns6switch=1
+  var ns6=document.getElementById&&!document.all
+  mes=new Array();
+  mes[0]=-1;
+  mes[1]=-4;
+  mes[2]=-7;mes[3]=-10;
+  mes[4]=-7;
+  mes[5]=-4;
+  mes[6]=-1;
+  num=0;
+  num2=0;
+  txt="";
+  function jump0(){
+  if (ns6&&!ns6switch){
+  jump.innerHTML=message
+  return
+  }
+  if(message.length > 6){
+  for(i=0; i != message.length;i++){
+  txt=txt+"<span style='position:relative;' id='n"+i+"'>"+message.charAt(i)+"</span>"};
+  jump.innerHTML=txt;
+  txt="";
+  jump1a()
+  }
+  else{
+  alert("Your message is to short")
+  }
+  }
+  function jump1a(){
+  nfinal=(document.getElementById)? document.getElementById("n0") : document.all.n0
+  nfinal.style.left=-num2;
+  if(num2 != 9){
+  num2=num2+3;
+  setTimeout("jump1a()",50)
+  }
+  else{
+  jump1b()
+  }
+  }
+  function jump1b(){
+  nfinal.style.left=-num2;
+  if(num2 != 0){num2=num2-3;
+  setTimeout("jump1b()",50)
+  }
+  else{
+  jump2()
+  }
+  }
+  function jump2(){
+  txt="";
+  for(i=0;i != message.length;i++){
+  if(i+num > -1 && i+num < 7){
+  txt=txt+"<span style='position:relative;top:"+mes[i+num]+"'>"+message.charAt(i)+"</span>"
+  }
+  else{txt=txt+"<span>"+message.charAt(i)+"</span>"}
+  }
+  jump.innerHTML=txt;
+  txt="";
+  if(num != (-message.length)){
+  num--;
+  setTimeout("jump2()",50)}
+  else{num=0;
+  setTimeout("jump0()",50)}}
+  </script>
+  </head>
+  <body>
+  
+  <h2><div id="jumpx" style="color:green"></div></h2>
+  <script>
+  if (document.all||document.getElementById){
+  jump=(document.getElementById)? document.getElementById("jumpx") : document.all.jumpx
+  jump0()
+  }
+  else
+  document.write(message)
+  </script>
+  
+  </body>
+       Contaminación<br>
+       Los contaminantes pueden ser de tipo químico, biológico o vibraciones y radiaciones. Al entrar o interactuar estos contaminantes en la atmósfera, el agua o los suelos, degradan su composición natural y su 
+       calidad, poniendo en riesgo la salud de las personas y la preservación del medio ambiente.<br>
+       Desastres ambientales<br>
+       Las rutinas de vida en estos casos se ven alteradas, hay destrucción de bienes materiales y se afectan los recursos naturales.<br>
+       Desechos toxicos y residuos peligrosos<br>
+       Son aquellas sustancias que representan un peligro para la vida cuando son liberadas al medio ambiente. La eliminación de estas sustancias puede afectar también el equilibrio ecológico.
+
+</center>
+<body>
+
+
+<script>
+uphilltext("4 G")
+</script>
+</b></p>
+</body>
+</html>
